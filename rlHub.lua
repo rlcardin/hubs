@@ -15,7 +15,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
         loadstring(game:HttpGet("https://pastebin.com/raw/yWPpG7mq"))()
     end)
     fee:NewButton("FE Black Hole", "Black hole", function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/rQgMibiS"))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/pqYHxPi8"))()
     end)
     fee:NewButton("FE Kill/Fling", "Kill/Fling Spin Gui", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/Gqfp5kmb"))()
@@ -65,9 +65,12 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     oth:NewButton("Click TP", "Press CTRL and Click", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/kF3vFUmh"))()
     end)
-    
-    oth:NewButton("TP to map Natural", "TP", function()
+    local oth = others:NewSection("Natural Disaster Survival")
+    oth:NewButton("TP Map", "TP", function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-122.865555, 47.3999901, 5.38794374, 0.0430620573, 4.57639189e-08, -0.999072373, -1.31363125e-08, 1, 4.52402098e-08, 0.999072373, 1.11759908e-08, 0.0430620573)
+    end)
+    oth:NewButton("TP Lobby", "TP", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-259.175018, 194.499908, 321.476563, 0.683168054, 4.98186417e-08, -0.730261207, -5.49090409e-08, 1, 1.68522458e-08, 0.730261207, 2.85850259e-08, 0.683168054)
     end)
 
 
