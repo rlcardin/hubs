@@ -44,6 +44,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     local GUIg = Window:NewTab("Games GUI")
     local gg = GUIg:NewSection("Games GUI")
     
+    
 
 
 
@@ -51,12 +52,6 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     --Pagina 3 Other Scritps
     local others = Window:NewTab("Others Scripts")
     local oth = others:NewSection("Others")
-    oth:NewButton("Rejoin Script", "Rejoin this server", function()
-        game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, LocalPlayer)
-    end)
-    oth:NewButton("Click TP", "Press CTRL and Click", function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/kF3vFUmh"))()
-    end)
     oth:NewSlider("Walkspeed", "Changes the walkspeed", 250, 16, function(v)
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
     end)
@@ -64,7 +59,16 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     oth:NewSlider("Jumppower", "Mude seu jumppower", 250, 50, function(v)
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
     end)
+    oth:NewButton("Rejoin Script", "Rejoin this server", function()
+        game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, LocalPlayer)
+    end)
+    oth:NewButton("Click TP", "Press CTRL and Click", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/kF3vFUmh"))()
+    end)
     
+    oth:NewButton("TP to map Natural", "TP", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-122.865555, 47.3999901, 5.38794374, 0.0430620573, 4.57639189e-08, -0.999072373, -1.31363125e-08, 1, 4.52402098e-08, 0.999072373, 1.11759908e-08, 0.0430620573)
+    end)
 
 
     -- UI
