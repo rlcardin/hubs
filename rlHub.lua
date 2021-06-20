@@ -80,7 +80,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     local themeSection = themeTab:NewSection("Theme")
     local settingsSection = themeTab:NewSection("UI")
     
-    settingsSection:NewKeybind("Alterar UI", "Ligue ou deslige o UI", Enum.KeyCode.T , function()
+    settingsSection:NewKeybind("Alterar UI", "Ligue ou deslige o UI", Enum.KeyCode.N , function()
         Library:ToggleUI()
     end)
     
