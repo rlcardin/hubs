@@ -89,8 +89,8 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     fee:NewButton("FE Kill/Fling", "Kill/Fling Spin Gui", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/Gqfp5kmb"))()
     end)
-    --FE Poses and Dances
-    local fee = ScritpFE:NewSection("FE Dances/Emotes")
+    --FE Poses/Dances and Animations
+    local fee = ScritpFE:NewSection("FE Dances/Emotes And Animations")
     fee:NewButton("FE Dances (R6/R15)", "R6/R15 Dances", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/KZHGhzPC"))()
     end)
@@ -100,6 +100,11 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     fee:NewButton("Free Emotes and Animation Packages (R15)", "this gui gives free emotes and packages", function()
         loadstring(game:HttpGet("https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/R15GUI.lua"))()
     end)
+    fee:NewButton("Fe Memeus", "Is a Animation", function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/2MSTmKBa"))()
+    end)
+
+
     -- FE Admin
     local fee = ScritpFE:NewSection("FE Admins")
     fee:NewButton("Infinite Yield FE Admin", "FE Admin 2", function()
@@ -119,10 +124,6 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     oth:NewSlider("Jumppower", "Mude seu jumppower", 250, 50, function(v)
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
     end)
-
-
-    
-    -- 2
     local oth = others:NewSection("Click to activate")
     oth:NewButton("Rejoin Script", "Rejoin this server", function()
         game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, LocalPlayer)
@@ -130,15 +131,29 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     oth:NewButton("CTRL + Click TP", "Press CTRL and Click", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/kF3vFUmh"))()
     end)
-    oth:NewButton("Carry People", "Need 1 item or more", function()
+
+
+    
+    --Pagina 3 Funny
+    local funny = Window:NewTab("Funny FE")
+    local fun = funny:NewSection("Funny")
+    fun:NewButton("Carry People", "Need 1 item or more", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/Bc98Turg"))()
     end)
-    oth:NewButton("Gravitation Gun", "hold things", function()
+    fun:NewButton("Gravitation Gun", "hold things", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/TCAqcbtW"))()
     end)
-    oth:NewButton("Wall Walk", "Press Z to deactivate", function()
+    fun:NewButton("Fe Car (R6/Need item)", "Use this item (4435389917) to drive a car", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
+    end)
+    fun:NewButton("FE Ball Spin", "You enter an invisible ball", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/XxUcV0fg"))()
+    end)
+    fun:NewButton("Wall Walk", "Press Z to deactivate", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/h3guEeKk"))()
     end)
+    
+    
     
     -- UI
 
