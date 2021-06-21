@@ -40,16 +40,8 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
         loadstring(game:HttpGet("https://pastebin.com/raw/FJCxAASq"))()
     end)
 
-    --Pagina 2 Games GUI
-    local GUIg = Window:NewTab("Games GUI")
-    local gg = GUIg:NewSection("Games GUI")
-    
-    
-
-
-
-
-    --Pagina 3 Other Scritps
+ 
+    --Pagina 2 Other Scritps
     local others = Window:NewTab("Others Scripts")
     local oth = others:NewSection("Others")
     oth:NewSlider("Walkspeed", "Changes the walkspeed", 250, 16, function(v)
