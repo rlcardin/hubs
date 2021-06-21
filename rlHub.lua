@@ -89,8 +89,8 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     fee:NewButton("FE Kill/Fling", "Kill/Fling Spin Gui", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/Gqfp5kmb"))()
     end)
-    --FE Poses/Dances and Animations
-    local fee = ScritpFE:NewSection("FE Dances/Emotes And Animations")
+    --FE Poses/Dances
+    local fee = ScritpFE:NewSection("FE Dances/Emotes")
     fee:NewButton("FE Dances (R6/R15)", "R6/R15 Dances", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/KZHGhzPC"))()
     end)
@@ -100,9 +100,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     fee:NewButton("Free Emotes and Animation Packages (R15)", "this gui gives free emotes and packages", function()
         loadstring(game:HttpGet("https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/R15GUI.lua"))()
     end)
-    fee:NewButton("Fe Memeus", "Is a Animation", function()
-        loadstring(game:HttpGetAsync("https://pastebin.com/raw/2MSTmKBa"))()
-    end)
+    
 
 
     -- FE Admin
@@ -112,10 +110,36 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     end)
     fee:NewButton("CMD-X Admin", "FE Admin", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/FJCxAASq"))()
-    end)
+    end) 
+
+     --Pagina 2 Funny
+     local funny = Window:NewTab("Fun FE")
+     local fun = funny:NewSection("Fun")
+     fun:NewButton("Carry People", "Need 1 item or more", function()
+         loadstring(game:HttpGet("https://pastebin.com/raw/Bc98Turg"))()
+     end)
+     fun:NewButton("Gravitation Gun", "hold things", function()
+         loadstring(game:HttpGet("https://pastebin.com/raw/TCAqcbtW"))()
+     end)
+     fun:NewButton("FE Car (R6/Need item)", "Use this item (4435389917) to drive a car", function()
+         loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
+     end)
+     fun:NewButton("FE Ball Spin", "You enter an invisible ball", function()
+         loadstring(game:HttpGet("https://pastebin.com/raw/XxUcV0fg"))()
+     end)
+     fun:NewButton("Long Neck (R6)", "Your legs gets big", function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/WKb9rA6B "))()
+     end)
+     fun:NewButton("Wall Walk", "Press Z to deactivate", function()
+         loadstring(game:HttpGet("https://pastebin.com/raw/h3guEeKk"))()
+     end)
+     local fun = funny:NewSection("Animations")
+     fun:NewButton("Fe Memeus (R6)", "Is a Animation", function()
+         loadstring(game:HttpGetAsync("https://pastebin.com/raw/2MSTmKBa"))()
+     end)
 
  
-    --Pagina 2 Other Scritps
+    --Pagina 3 Other Scritps
     local others = Window:NewTab("Others Scripts")
     local oth = others:NewSection("Others")
     oth:NewSlider("Walkspeed", "Changes the walkspeed", 250, 16, function(v)
@@ -130,30 +154,6 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     end)
     oth:NewButton("CTRL + Click TP", "Press CTRL and Click", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/kF3vFUmh"))()
-    end)
-
-
-    
-    --Pagina 3 Funny
-    local funny = Window:NewTab("FunFE")
-    local fun = funny:NewSection("Fun")
-    fun:NewButton("Carry People", "Need 1 item or more", function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/Bc98Turg"))()
-    end)
-    fun:NewButton("Gravitation Gun", "hold things", function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/TCAqcbtW"))()
-    end)
-    fun:NewButton("FE Car (R6/Need item)", "Use this item (4435389917) to drive a car", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
-    end)
-    fun:NewButton("FE Ball Spin", "You enter an invisible ball", function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/XxUcV0fg"))()
-    end)
-    fun:NewButton("Long Neck (R6)", "Your legs gets big", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/WKb9rA6B "))()
-    end)
-    fun:NewButton("Wall Walk", "Press Z to deactivate", function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/h3guEeKk"))()
     end)
     
     
