@@ -14,7 +14,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     fee:NewButton("Fake VR (R6 Only)", "Fake VR", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/yWPpG7mq"))()
     end)
-    fee:NewButton("FE Black Hole", "Black hole", function()
+    fee:NewButton("FE Black Hole", "Press E to control Black hole", function()
         local UserInputService = game:GetService("UserInputService")
         local Mouse = game:GetService("Players").LocalPlayer:GetMouse()
         local Folder = Instance.new("Folder", game:GetService("Workspace"))
