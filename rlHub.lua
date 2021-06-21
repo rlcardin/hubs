@@ -129,6 +129,9 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     oth:NewButton("Carry People", "Need 1 item or more", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/Bc98Turg"))()
     end)
+    oth:NewButton("Gravitation Gun", "hold things", function()
+        loadstring(game:HttpGet(" https://pastebin.com/raw/TCAqcbtW"))()
+    end)
 
     
     -- UI
