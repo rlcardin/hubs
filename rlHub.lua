@@ -135,8 +135,8 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 
     
     --Pagina 3 Funny
-    local funny = Window:NewTab("Funny FE")
-    local fun = funny:NewSection("Funny")
+    local funny = Window:NewTab("FunFE")
+    local fun = funny:NewSection("Fun")
     fun:NewButton("Carry People", "Need 1 item or more", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/Bc98Turg"))()
     end)
