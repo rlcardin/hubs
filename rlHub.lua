@@ -137,6 +137,9 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
      fun:NewButton("Fe Memeus (R6)", "Is a Animation", function()
          loadstring(game:HttpGetAsync("https://pastebin.com/raw/2MSTmKBa"))()
      end)
+     fun:NewButton("Fe Neko (R6)", "Neki Animation", function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/rlcardin/a/main/oi"))()
+     end)
 
  
     --Pagina 3 Other Scritps
