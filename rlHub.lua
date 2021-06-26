@@ -108,6 +108,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     fee:NewButton("Infinite Yield FE Admin", "FE Admin 2", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
     end)
+    
     fee:NewButton("CMD-X Admin", "FE Admin", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/FJCxAASq"))()
     end) 
@@ -118,23 +119,44 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
      fun:NewButton("Carry People", "Need 1 item or more", function()
          loadstring(game:HttpGet("https://pastebin.com/raw/Bc98Turg"))()
      end)
+
      fun:NewButton("Gravitation Gun", "hold things", function()
          loadstring(game:HttpGet("https://pastebin.com/raw/TCAqcbtW"))()
      end)
+
      fun:NewButton("FE Car (R6/Need item)", "Use this item (4435389917) to drive a car", function()
          loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
      end)
+
      fun:NewButton("FE Ball Spin", "You enter an invisible ball", function()
          loadstring(game:HttpGet("https://pastebin.com/raw/XxUcV0fg"))()
      end)
+
      fun:NewButton("Long Neck (R6)", "Your legs gets big", function()
-     loadstring(game:HttpGet("https://pastebin.com/raw/WKb9rA6B "))()
+         loadstring(game:HttpGet("https://pastebin.com/raw/WKb9rA6B "))()
      end)
+
      fun:NewButton("Wall Walk", "Press Z to deactivate", function()
          loadstring(game:HttpGet("https://pastebin.com/raw/h3guEeKk"))()
      end)
      --Anim
-     local fun = funny:NewSection("Animations")
+     local fun = funny:NewSection("Animations (R6 ONLY)")
+     fun:NewButton("Fe Among Us (R6)", "Among Us Animation", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/JXUMavf3", true))()
+     end)
+
+     fun:NewButton("Fe Chill (R6)", "Chill fly Animation", function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/XmHFdTij"))()
+     end)
+
+     fun:NewButton("Fe Chips (R6)", "Chips Animation", function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/b289ts36"))()
+     end)
+     
+     fun:NewButton("Fe Gale (R6)", "Fight Animation", function()
+        loadstring(game:HttpGet(("https://pastebin.com/raw/PjJNLaFa"), true))()
+     end)
+
      fun:NewButton("Fe Memeus (R6)", "Is a Animation", function()
          loadstring(game:HttpGetAsync("https://pastebin.com/raw/2MSTmKBa"))()
      end)
@@ -142,14 +164,19 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
      fun:NewButton("Fe Neko (R6)", "Neko Animation", function()
         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/rlcardin/a/main/oi"))()
      end)
-     fun:NewButton("Fe Gale (R6)", "Fight Animation", function()
-        loadstring(game:HttpGet(("https://pastebin.com/raw/PjJNLaFa"), true))()
+     
+     fun:NewButton("Fe Spider (R6)", "Spider Transformation", function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/txsk1LJg"))()
+     end)
+
+     fun:NewButton("Fe Smug (R6)", "Smug Animation", function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/ZuKy7HFF"))()
      end)
     
-     
 
 
 
+  
  
     --Pagina 3 Other Scritps
     local others = Window:NewTab("Others Scripts")
@@ -168,7 +195,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     oth:NewButton("CTRL + Click TP", "Press CTRL and Click", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/kF3vFUmh"))()
     end)
-    oth:NewButton("CTRL + Destroy", "Press CTRL and Click", function()
+    oth:NewButton("CTRL + Click Destroy", "Press CTRL and Click", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/1xVgydWC"))()
     end)
     
