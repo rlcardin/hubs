@@ -133,6 +133,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
      fun:NewButton("Wall Walk", "Press Z to deactivate", function()
          loadstring(game:HttpGet("https://pastebin.com/raw/h3guEeKk"))()
      end)
+     --Anim
      local fun = funny:NewSection("Animations")
      fun:NewButton("Fe Memeus (R6)", "Is a Animation", function()
          loadstring(game:HttpGetAsync("https://pastebin.com/raw/2MSTmKBa"))()
@@ -151,12 +152,16 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     oth:NewSlider("Jumppower", "Mude seu jumppower", 250, 50, function(v)
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
     end)
+
     local oth = others:NewSection("Others 2")
     oth:NewButton("Rejoin Script", "Rejoin this server", function()
         game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, LocalPlayer)
     end)
     oth:NewButton("CTRL + Click TP", "Press CTRL and Click", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/kF3vFUmh"))()
+    end)
+    oth:NewButton("CTRL + Destroy", "Press CTRL and Click", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/1xVgydWC"))()
     end)
     
     
