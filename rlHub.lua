@@ -139,8 +139,15 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
      fun:NewButton("Wall Walk", "Press Z to deactivate", function()
          loadstring(game:HttpGet("https://pastebin.com/raw/h3guEeKk"))()
      end)
+
      --Anim
+    
      local fun = funny:NewSection("Animations (R6 ONLY)")
+
+     fun:NewButton("Netless Bypass", "For Animations", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/Cu7bKQWN'),true))()
+     end)
+     
      fun:NewButton("Fe Among Us (R6)", "Among Us Animation", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/JXUMavf3", true))()
      end)
@@ -198,6 +205,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     oth:NewButton("CTRL + Click Destroy", "Press CTRL and Click", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/1xVgydWC"))()
     end)
+    
     
     
     
