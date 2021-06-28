@@ -132,10 +132,10 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
          loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
      end)
 
-     fun:NewButton("FE Long Neck (R6)", "Your legs gets long", function()
+     fun:NewButton("FE Long Neck (R6)", "Your legs gets long (USE NETLESS BYPASS)", function()
          loadstring(game:HttpGet("https://pastebin.com/raw/WKb9rA6B "))()
      end)
-     fun:NewButton("FE Pyramid (R6)", "you become a pyramid", function()
+     fun:NewButton("FE Pyramid (R6)", "You become a pyramid (USE NETLESS BYPASS)", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/62D5UQSC "))()
      end)
 
