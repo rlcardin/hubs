@@ -132,8 +132,11 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
          loadstring(game:HttpGet("https://pastebin.com/raw/XxUcV0fg"))()
      end)
 
-     fun:NewButton("Long Neck (R6)", "Your legs gets big", function()
+     fun:NewButton("FE Long Neck (R6)", "Your legs gets long", function()
          loadstring(game:HttpGet("https://pastebin.com/raw/WKb9rA6B "))()
+     end)
+     fun:NewButton("FE Pyramid (R6)", "you become a pyramid", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/62D5UQSC "))()
      end)
 
      fun:NewButton("Wall Walk", "Press Z to deactivate", function()
