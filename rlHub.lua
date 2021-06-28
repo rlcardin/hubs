@@ -123,13 +123,13 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
      fun:NewButton("Gravitation Gun", "hold things", function()
          loadstring(game:HttpGet("https://pastebin.com/raw/TCAqcbtW"))()
      end)
+     
+     fun:NewButton("FE Ball Spin", "You enter an invisible ball", function()
+         loadstring(game:HttpGet("https://pastebin.com/raw/XxUcV0fg"))()
+     end)
 
      fun:NewButton("FE Car (R6/Need item)", "Use this item (4435389917) to drive a car", function()
          loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
-     end)
-
-     fun:NewButton("FE Ball Spin", "You enter an invisible ball", function()
-         loadstring(game:HttpGet("https://pastebin.com/raw/XxUcV0fg"))()
      end)
 
      fun:NewButton("FE Long Neck (R6)", "Your legs gets long", function()
