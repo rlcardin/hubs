@@ -198,6 +198,11 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
     end)
 
+    oth:NewToggle("Fly", "teste", false, function(fl)
+        
+        
+    end)
+
     local oth = others:NewSection("Others 2")
     oth:NewButton("Rejoin Script", "Rejoin this server", function()
         game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, LocalPlayer)
